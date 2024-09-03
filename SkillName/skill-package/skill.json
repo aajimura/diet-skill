@@ -5,7 +5,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:123456789012:function:your-lambda-function-name"
+          "uri": "arn:aws:lambda:us-east-1:637423479261:function:5b113f16-e46c-489e-977b-15b8d2c7ab89:Release_0"
         },
         "interfaces": []
       }
