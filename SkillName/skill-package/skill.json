@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "version": "1.0",
+    "permissions": [],
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:123456789012:function:your-lambda-function-name"
+        },
+        "interfaces": []
+      }
+    },
+    "privacyAndCompliance": {
+      "consent": {
+        "title": "Consent",
+        "content": "Your skill may collect personal information to provide better recommendations."
+      }
+    },
+    "skill": {
+      "name": {
+        "value": "Daily Diet Coach"
+      },
+      "description": {
+        "value": "Get personalized diet advice and meal plans based on your height, age, sex, and weight."
+      },
+      "smallIconUri": "https://example.com/assets/images/en-US_smallIcon.png",
+      "largeIconUri": "https://example.com/assets/images/en-US_largeIcon.png",
+      "locales": {
+        "en-US": {
+          "name": "Daily Diet Coach",
+          "summary": "Get personalized diet advice and meal plans.",
+          "description": "The Daily Diet Coach skill helps you with personalized diet advice based on your height, age, sex, and weight. You can also access daily diet tips and weekly meal plans.",
+          "examples": [
+            "I need diet advice",
+            "What's the menu for today?",
+            "Help me with my diet"
+          ]
+        }
+      }
+    }
+  }
+}

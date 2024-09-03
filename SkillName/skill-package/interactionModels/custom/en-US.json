@@ -1,0 +1,107 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "diet coach",
+      "intents": [
+        {
+          "name": "LaunchRequest",
+          "slots": [],
+          "samples": [
+            "open diet coach",
+            "start diet coach",
+            "launch diet coach"
+          ]
+        },
+        {
+          "name": "HeightIntent",
+          "slots": [
+            {
+              "name": "height",
+              "type": "AMAZON.Number"
+            }
+          ],
+          "samples": [
+            "my height is {height} meters",
+            "I am {height} meters tall",
+            "height is {height}"
+          ]
+        },
+        {
+          "name": "AgeIntent",
+          "slots": [
+            {
+              "name": "age",
+              "type": "AMAZON.Number"
+            }
+          ],
+          "samples": [
+            "I am {age} years old",
+            "my age is {age}",
+            "I am {age}"
+          ]
+        },
+        {
+          "name": "SexIntent",
+          "slots": [
+            {
+              "name": "sex",
+              "type": "AMAZON.Gender"
+            }
+          ],
+          "samples": [
+            "I am {sex}",
+            "my gender is {sex}",
+            "sex is {sex}"
+          ]
+        },
+        {
+          "name": "WeightIntent",
+          "slots": [
+            {
+              "name": "weight",
+              "type": "AMAZON.Number"
+            }
+          ],
+          "samples": [
+            "my weight is {weight} kilograms",
+            "I weigh {weight} kilograms",
+            "weight is {weight}"
+          ]
+        },
+        {
+          "name": "PlanAccessIntent",
+          "slots": [],
+          "samples": [
+            "get access to the meal plan",
+            "show me the weekly meal plan",
+            "I want to see the meal plan"
+          ]
+        },
+        {
+          "name": "MenuSelectionIntent",
+          "slots": [
+            {
+              "name": "day",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "show me the menu for day {day}",
+            "what is the menu for day {day}",
+            "I want the menu for day {day}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "samples": [
+            "help",
+            "I need help",
+            "what can I do"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
